@@ -1,0 +1,63 @@
+@media print{
+	@page{
+		margin: 1cm;
+	}
+	header{
+		display: none;
+	}
+	.container{
+		margin-top: 2%;
+	}
+	.article0 h2{
+		width:100%;
+		font-size: 30px;
+	}
+	.carte{
+		float: left;
+		padding-right: 2.5%;
+	}
+	.article0 p{
+		text-align: justify;
+	}
+	.container hr{
+		display: none;
+	}
+	.containerArticle hr{
+		display: none;
+	}
+	p{
+		widows: 4;
+		orphans: 3;
+	}
+	.article1{
+		page-break-after: auto;
+		box-shadow: none !important;
+	}
+	.containerArticle{
+		padding: 1%;
+		page-break-after: auto;
+	}
+	.element{
+		box-shadow: none !important;
+		border: 1px solid black;
+		page-break-after: auto;
+	}
+	.containerArticle2{
+		padding: 2%;
+	}
+	.containerArticle2 a {
+		display: none;
+	}
+
+	/*footer*/
+	.fa-arrow-circle-up{
+		display: none;
+	}
+	.newsletter{
+		display: none;
+	}
+	footer{
+		break-after: page;
+	}
+
+}

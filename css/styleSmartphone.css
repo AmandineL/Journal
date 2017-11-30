@@ -1,0 +1,90 @@
+@media screen and (min-width: 200px) and (max-width:850px){
+	/*CSS Header*/
+	header h1{
+		font-size: 40px;
+		width: 225px;
+		margin-bottom: 0px;
+
+	}
+	header ul li {
+		padding-left: 6%;
+	    margin: 0px;
+	    font-size: 23px;
+	}
+	button {
+    	padding: 13px 6px;
+	}
+	.container{
+		margin-top: 35%;
+	}
+
+	/*CSS Body - Actualité*/
+	.article0 h2{
+		font-size: 31px;
+		width:100%;
+	}
+	.carte{
+		float: left;
+		padding-right: 2.5%;
+	}
+	.article0 p{
+		text-align: justify;
+	}
+
+	/*CSS Body - Actualité*/
+	.containerArticle h1 {
+    	font-size: 32px;
+    }
+    .titreArticle1 {
+    	margin-top: 11px;
+    	margin-bottom: 11px;
+    }
+
+    /*CSS Body - Articles*/
+    .imgArticle1{
+    	width: 24%;
+    }
+    #conteneur{
+    	display: block;
+    }
+    .element{
+		margin: 0%;
+		display: inline-block;
+		margin-top:30px;
+		margin-bottom:30px;
+	}
+	.containerArticle2{
+		display: block;
+	}
+
+
+	/*CSS Page Articles*/
+	.containerArticle{
+		margin-top: 200px;
+	}
+
+	.submitnewsletter {
+    	width: 20%;
+	}
+	.textnewsletter, select {
+    	width: 50%;
+    }
+
+    /*CSS Page Inscription*/
+	.containerInscription{
+		margin-top: 37%;
+	}
+	#country{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width:590px){
+	.container{
+		margin-top: 48%;
+	}
+	/*CSS Page Inscription*/
+	.containerInscription{
+		margin-top: 39%;
+	}
+}

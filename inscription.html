@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Article</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styleSmartphone.css">
+    <link rel="stylesheet" href="css/styleGrandEcran.css">
+    <link rel="stylesheet" href="css/stylePrint.css" media="print">
+</head>
+
+<body>
+	<header>
+		<a href="inscription.html"><button type="button">S'inscrire</button></a>
+		<a href="Journal.html"><h1>Journal BOA</h1></a>
+		<div class="barinfo"><marquee behavior="scroll">
+			<strong>FLASH INFO :</strong> Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</marquee>
+		</div>
+	</header>
+
+
+	<div class="containerInscription">
+		<h1> Formulaire d'inscription au Journal Boa</h1>
+	  <form action="">
+	    <label>Nom</label>
+	    <input type="text" class="inputtextformulaire" name="nom" placeholder="Votre nom ..">
+
+	    <label>Prènom</label>
+	    <input type="text" class="inputtextformulaire" name="prenom" placeholder="Votre prènom ..">
+
+	    <label>Email</label>
+	    <input type="email" class="inputtextformulaire" name="email" placeholder="Votre email ..">
+
+	    <label>Mot de passe</label>
+	    <input type="password" class="inputtextformulaire" name="password" placeholder="Votre mot de passe ..">
+
+	    <label>Sexe</label>
+	    <p><input type="radio" name="gender" class="inputradioformulaire" value="male">Homme</p>
+		<p><input type="radio" name="gender" class="inputradioformulaire" value="femme">Femme</p>
+
+		<label>Age</label>
+	    <input type="date" class="inputtextformulaire" name="bday">
+
+	    <label for="country">Pays</label>
+	    <select id="country" name="country">
+	      <optgroup label="Europe">
+            <option value="continert1">Allemagne</option>
+            <option value="continent1">France</option>
+            <option value="continent1">Pologne</option>
+            <option value="continent1">Portugal</option>
+            <option value="continent1">Roumanie</option>
+        </optgroup>
+        <optgroup label="Asie">
+            <option value="continent2">Chine</option>
+            <option value="continent2">Hong-kong</option>
+            <option value="continent2">Japon</option>
+            <option value="continent2">Mongolie</option>
+            <option value="continent2">Philippines</option>
+        </optgroup>
+        <optgroup label="Amérique">
+            <option value="continert3">Brésil</option>
+            <option value="continent3">Canada</option>
+            <option value="continent3">Cuba</option>
+            <option value="continent3">Mexique</option>
+            <option value="continent3">Pérou</option>
+        </optgroup>
+	    </select>
+	  
+	    <input type="submit" class="inputsubmitformulaire" value="Submit">
+	  </form>
+	</div>
+
+	<footer id="contact">
+		<a href="#" class="backtotop-btn is-active"><i class="fa fa-arrow-circle-up fa-3x" aria-hidden="true"></i></a>
+		<div class="newsletter">
+			<form action="">
+			    <label for="newsletter"><h2>Newsletter</h2></label>
+				<input type="text" id="newsletter" class="textnewsletter" name="email" placeholder="Votre email..">
+				<input type="submit" class="submitnewsletter" value="S'inscrire">
+			</form>
+		</div>
+		<hr>
+		<div class="copyright"><p>© COPYRIGHT BOA</p></div>
+	</footer>
+</body>
+
+</html>

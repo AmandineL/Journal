@@ -1,0 +1,92 @@
+@media screen and (min-width: 851px) and (max-width:1500px){
+	header h1{
+		font-size: 38px;
+	    width: 250px;
+	    display: inline-block;
+	    margin-left: 30px;
+	}
+
+	header ul li {
+		padding: 4%;
+	    margin: 0px;
+	    font-size: 26px;
+	    display: inline-block;
+	}
+	header ul {
+	    display: inline-block;
+	    width: 380px;
+	    padding-left: 0;
+	}
+	button {
+	    margin-top: 38px;
+	    margin-right: 10px;
+	}
+
+	/*CSS Body - Actualité*/
+	.container{
+		margin-top: 22%;
+	}
+	.article0 h2{
+		font-size: 31px;
+		width:100%;
+	}
+	.carte{
+		float: left;
+		padding-right: 2.5%;
+	}
+	.article0 p{
+		text-align: justify;
+	}
+
+	/*CSS Article */
+	.article1{
+		width: 38%;
+	}
+
+	/*CSS Article - Vignettes */
+	#conteneur{
+	    display: flex;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	/*CSS Page Article */
+	.containerArticle{
+		margin-top: 1%;
+	}
+	
+}
+
+
+
+
+
+@media screen and (min-width: 1140px) and (max-width:1500px){
+	/*CSS Body - Actualité*/
+	.carte{
+		float:right;
+		opacity: 0.5;
+	}
+	.carte:hover {
+		opacity: 0.9;
+	}
+	.container{
+		margin-top: 17%;
+	}
+	.article0 p{
+		padding: 10px;
+		width: 100%;
+		animation-duration: 3s;
+		animation-name: slidein;
+		columns: 4;
+	}
+	.article0 h2{
+		width: 66%;
+	}
+	/*CSS Page Inscription*/
+	.containerInscription{
+		margin-top: 16%;
+	}
+
+}

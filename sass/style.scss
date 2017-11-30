@@ -1,0 +1,29 @@
+$avatar-sprite-dimensions: true;
+
+.avatar {
+            @include avatar-sprite("avatar-1");
+
+            &:hover{
+            @include avatar-sprite("avatar-2");	
+            }
+
+          }
+
+@import "gohan/*.png";
+
+ $gohan-sprite-dimensions: true;
+
+.sprite{
+	@include gohan-sprite("gohan-1");
+	animation: animation 1.3s steps(4) infinite;
+}
+
+@keyframes animation {
+            0% {
+              background-position: 0 0;
+            }
+
+            50% {
+              background-position: 0 -520px;
+            }
+          }
